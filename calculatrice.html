@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculatrice</title> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+<script src="calculatrice.js"></script>	
+</head>
+<body>
+    <div class="container">
+    <label for="nombre 1">Nombre 1:</label>
+    <input type="text" id="nombre1"><br><br>
+
+<label for="nombre 2">Nombre 2:</label>
+<input type="text" id="nombre2"><br><br>
+
+<label for="operation">Operation:</label>
+<select id="operation">
+    <option value="somme">Somme</option>
+    <option value="difference">Difference</option>
+    <option value="produit">Produit</option>
+    <option value="division">Division</option>
+    </select><br><br>
+    <button onclick="valider()">Valider</button><br><br>
+
+    <label for="resultat">Résultat:</label>
+    <input type="text" id="resultat" readonly><br><br>
+    
+
+    <label for="decimal">Décimal:</label>
+    <input type="text" id="decimal"><br><br>
+
+    <button onclick="binaire()">Convertir</button><br><br>
+
+    <label for="binaire">Binaire:</label>
+    <input type="text" id="binaire" readonly><br><br>
+    </div>
+
+
+</body>
+</html>
